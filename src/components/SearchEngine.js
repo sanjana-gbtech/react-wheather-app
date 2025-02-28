@@ -17,7 +17,7 @@ function SearchEngine({ query, setQuery, search }) {
         name="query"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        onKeyPress={handleKeyPress}
+        onMouseEnter={handleKeyPress}
       />
       <button onClick={search}><i className="fas fa-search" style={{ fontSize: "18px" }}></i></button>
     </div>

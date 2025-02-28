@@ -103,7 +103,7 @@ body {
 }
 
 .temp-icon{
-  width: 20%;
+  width: 15%;
 }
 
 .weather-des {
@@ -163,7 +163,7 @@ body {
 }
 
 .day-name {
-  font-size: 18px;
+  font-size: 1.1vw;
   font-weight: 500;
   margin-bottom: 5px;
 }
@@ -177,6 +177,7 @@ body {
 .day-temperature {
   margin-top: 5px;
   font-weight: 400;
+  margin-bottom: 1vw;
 }
 
 .day-temperature span {
